@@ -1,0 +1,139 @@
+:root {
+    --button-padding: 10px;
+    --button-background-color: white;
+    --button-margin-top: 55px;
+    --button-border-radius: 19px;
+    --box-padding: 35px;
+    --box-height: 45%;
+    --font-margin-top: 30px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.container{
+    margin: 40px auto;
+    width: 1440px;
+    height: 800px;
+    background-color: rgb(249, 240, 240);
+}
+
+.box0{
+    display: flex;
+    width: 858px;
+    height: 800px;
+    margin: 0 auto;
+    border-radius: 
+}
+
+.box1{
+    align-self: center; 
+    padding: var(--box-padding);
+    background-color: hsl(31, 77%, 52%);
+    height: var(--box-height);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.box2{
+    align-self: center; 
+    padding: var(--box-padding); 
+    background-color: hsl(184, 100%, 22%);
+    height: var(--box-height);
+}
+
+.box3{
+    align-self: center;
+    justify-content: space-around;
+  
+    padding: var(--box-padding);
+    background-color: hsl(179, 100%, 13%);
+    height: var(--box-height);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    color: hsl(0, 0%,100%);
+    margin-top: var(--font-margin-top);
+}
+
+p{
+    color: rgb(249, 240, 240);
+    opacity: 0.8;
+    word-spacing: 1.7px;
+    margin-top: var(--font-margin-top);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button{
+     border-radius: var(--button-border-radius);
+     padding: var(--button-padding);
+     margin-top: var(--button-margin-top);
+     width: 130px;
+     border: 1px transparent;
+     font-family: 'Lexend Deca', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+
+.box1 button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.box2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.box3, button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+
+
+.box1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2 button {
+    color: hsl(184, 100%, 22%);
+    
+}
+
+.box3, button {
+    color: hsl(179, 100%, 13%);
+    
+}
+
+.nav {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 40px;
+    padding: 10px;
+    position: fixed;
+}  
+
+.nav a:hover{
+    cursor: pointer;
+    transition: background .5s;
+   
+}
